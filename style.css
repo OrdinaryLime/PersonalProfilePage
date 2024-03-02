@@ -1,4 +1,78 @@
-html {
-  height: 100%;
-  width: 100%;
+body{
+  /*background-color: lightgoldenrodyellow;*/
+  font-family: "Arial";
+  background-image: url("bgimage.jpg")
+  
+}
+.container {
+  display: grid;
+  align-items: center; 
+  grid-template-areas: 
+   ". a b";
+  column-gap: 5px;
+}
+.Header {
+  font-size: 50px;
+  font-family: "Arial"; 
+}
+.image {
+  max-width: 100%;
+  max-height:100%;
+  padding-left: 250px;
+}
+.image-text{
+  font-size: 25px;
+  font-family: "Arial";
+  border-style: groove;
+  border-color: darkmagenta;
+  background-color: lightgoldenrodyellow;
+}
+.about{
+  border-style: groove;
+  border-color: darkmagenta;
+  background-color: lightgoldenrodyellow;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.edu{
+  border-style: groove;
+  border-color: darkmagenta;
+  background-color: lightgoldenrodyellow;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom:10px;
+  table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th,td{
+    padding:10px;
+  }
+}
+.skills{
+  ul{list-style-position:inside;}
+  border-style: groove;
+  border-color: darkmagenta;
+  background-color: lightgoldenrodyellow;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.activity{
+  border-style: groove;
+  border-color: darkmagenta;
+  background-color: lightgoldenrodyellow;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
